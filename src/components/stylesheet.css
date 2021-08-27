@@ -1,0 +1,79 @@
+.student {
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30;
+  margin-top: 10px;
+}
+
+.left {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.right {
+  width: 40%;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: right;
+}
+
+h2.studentName {
+  margin: 0;
+  padding: 0;
+}
+
+p.universityName {
+  margin: 0;
+  padding: 0;
+}
+
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+
+button.add,
+button.sub {
+  border: none;
+  background: crimson;
+  color: seashell;
+  width: 20px;
+  height: 20px;
+  line-height: 16px;
+  text-align: center;
+  position: relative;
+  top: -2px;
+  left: 7px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button.add:hover,
+button.sub:hover {
+  background: green;
+}
+
+.success {
+  background: green;
+  color: white;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.failure {
+  background: red;
+  color: white;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
